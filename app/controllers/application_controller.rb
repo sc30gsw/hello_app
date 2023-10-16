@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
     # 1.3.4演習2
     render html: "¡Hola, mundo!"
   end
+
+  def goodbye
+    render html: "goodbye, world!"
+  end
 end
