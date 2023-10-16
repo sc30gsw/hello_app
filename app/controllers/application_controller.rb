@@ -3,6 +3,9 @@ class ApplicationController < ActionController::Base
 
   def hello
     # 1.3.4演習1
-    render html: "hola, mundo!"
+    # render html: "hola, mundo!"
+
+    # 1.3.4演習2
+    render html: "¡Hola, mundo!"
   end
 end
